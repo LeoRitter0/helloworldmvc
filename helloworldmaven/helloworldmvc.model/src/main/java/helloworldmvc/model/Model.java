@@ -1,0 +1,12 @@
+package helloworldmvc.model;
+
+import helloworldmvc.contract.IModel;
+
+public class Model implements IModel {
+	public String GetHelloWorld() {
+		DAOHelloWorld helloWorld = new DAOHelloWorld();
+		return helloWorld.GetHelloWorldMessage();
+		
+	}
+
+}

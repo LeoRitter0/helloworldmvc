@@ -7,4 +7,21 @@
   </parent>
   <artifactId>helloworldmvc.main</artifactId>
   <name>main</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.exia</groupId>
+  		<artifactId>helloworldmvc.controller</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>fr.exia</groupId>
+  		<artifactId>helloworldmvc.view</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>fr.exia</groupId>
+  		<artifactId>helloworldmvc.model</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
